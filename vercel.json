@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/landingpage", "destination": "/index.html" },
+    { "source": "/landingpage/:match*", "destination": "/index.html" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
